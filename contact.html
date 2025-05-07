@@ -26,19 +26,19 @@
         Have questions or want to get in touch? We’d love to hear from you!
     </p>
 
-    
-    
-    <form action="https://formsubmit.co/velidivishal@gmail.com" method="POST">
-        <input type="text" name="name" placeholder="Your Name" required><br><br>
-        <input type="email" name="email" placeholder="Your Email" required><br><br>
-        <textarea name="message" placeholder="Your Message" required></textarea><br><br>
-    
-        <!-- Redirect to Thank You page -->
-        <input type="hidden" name="_next" method="POST" value="thankyou.html">
-        
-        <a href="thankyou.html" class="thankyou-container" style="text-decoration: none; color: white;">Send Message</a>
+    <form action="#" method="post" style="max-width:600px; margin:2rem auto; text-align:left;">
+        <label>Name:</label><br>
+        <input type="text" name="name" required style="width:100%; padding:0.5rem; margin-bottom:1rem;"><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email" required style="width:100%; padding:0.5rem; margin-bottom:1rem;"><br>
+
+        <label>Message:</label><br>
+        <textarea name="message" rows="5" required style="width:100%; padding:0.5rem; margin-bottom:1rem;"></textarea><br>
+
+        <a href="thankyou.html" style="padding:0.75rem 1.5rem; background:#8b5c3c; color:white; border:none; border-radius:4px; cursor:pointer; text-decoration: none;">Send Message</a>
     </form>
-    
+
 </section>
 
 <footer class="footer">
@@ -48,4 +48,3 @@
 <script src="script.js"></script>
 </body>
 </html>
-
