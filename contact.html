@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Dry Fruit House</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="logo">Dry Fruit House</div>
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="location.html">Our Location</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    <button class="menu-toggle">☰</button>
+</nav>
+
+<section class="features">
+    <h2>Contact Us</h2>
+    <p style="max-width: 800px; margin: auto; line-height: 1.8;">
+        Have questions or want to get in touch? We’d love to hear from you!
+    </p>
+
+    
+    
+    <form action="https://formsubmit.co/velidivishal@gmail.com" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required><br><br>
+        <input type="email" name="email" placeholder="Your Email" required><br><br>
+        <textarea name="message" placeholder="Your Message" required></textarea><br><br>
+    
+        <!-- Redirect to Thank You page -->
+        <input type="hidden" name="_next" method="POST" value="thankyou.html">
+        
+        <a href="thankyou.html" class="thankyou-container" style="text-decoration: none; color: white;">Send Message</a>
+    </form>
+    
+</section>
+
+<footer class="footer">
+    <p>© 2025 Dry Fruit House | All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
