@@ -253,3 +253,22 @@ form button:hover {
 .thankyou-container a:hover {
     background-color: #a64f16;
 }
+
+/* Ensure nav-links are hidden by default in mobile view */
+.nav-links {
+    display: none;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #8b5c3c;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    padding: 1rem;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Show nav-links when active class is added */
+.nav-links.active {
+    display: flex;
+}
